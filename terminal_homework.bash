@@ -168,3 +168,4 @@
 
 # // # Celebrate!
 
+// # I spent a lot of time on differentiating on mv for renaming or mv for moving a txt file into a directory. I went to the office hours and was able to execute it once, but not after that. I had lots of difficulty with this one. 
