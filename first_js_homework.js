@@ -5,9 +5,12 @@
 
 // You can use functions, classes, boilerplates, libraries, etc are examples of ways to practice DRY coding.
 
-// const (constant) variables that 
-// always stay the same
+// const (constant) variables that always stay the same
+// Kyle's Feedback * const declares an immutable variable meaning it cannot be reassigned after declaration
+
 // let (range) 
+// Kyle's Feedback * let declares a mutable variable meaning it can be reassigned after declaration
+
 // var (variable) reassignable 
 // variable
 ///////////////////SECTION 1///////////////////
@@ -43,6 +46,8 @@ console.log(g);
 
 // 10 = g will give you an error. 
 // 10 is not equal to 53 + 57
+// Kyle's Feedback * this errors not because they are not equal but rather the value of 10 cannot be reassigned a new value, remember the single = reffers to assignment and the === checks for equality
+
 
 // Bonus question
 // 4 < (53 or false) if not then !false && 'Kelvin'
@@ -65,12 +70,12 @@ console.log(g);
 // EXPECTED RESULT: 21 A's because it includes 0
 // RESULT: AAAAAAAAAAAAAAAAAAAAA
 
-// let letters = "A";
-// let i = 0;
+let letters = "A";
+let i = 0;
 
-// while (i < 20) {
-// 	letters += "A";	i++;
-// }
+while (i < 20) {
+	letters += "A";	i++;
+}
 
 ///////////////////SECTION 3///////////////////
 // The while loop is conditioned to true, making the loop run indefinitely. The program will continue to run continuously becuase it has nowhere to exit. 
